@@ -2,6 +2,8 @@ const express =  require("express");
 const app = express();
 const connectdb = require("./db/connect")
 const PORT = process.env.PORT || 5000;
+const cors = require('cors');
+app.use(cors());
 
 const apiroute = require("./routes/blog");
 
