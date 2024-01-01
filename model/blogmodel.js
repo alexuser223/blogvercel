@@ -8,7 +8,7 @@ const blogschema = new mongoose.Schema({
     },
     "Unique_Id": {
       
-        "type": "Date"
+        "type": "Number"
       
     },
     "Title": {
