@@ -8,9 +8,7 @@
     ],
     "routes": [
       {
-        "routes": "/",
-        "model": "/",
-        "controllers":"/"
+        "routes": "/"
       }
     ]
   }
